@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tug of Wars</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Duru+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="newroom.css" />
+    <script>
+      // if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || screen.width <= 699){
+      //     document.location = "mobile.html";
+      // }
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Tug of wars</h1>
+    </header>
+    <div class="flex">
+      <div class="text-area" id="room-input" contenteditable="true"></div>
+      <button onclick="createroom()" style="width: 200px">Create room</button>
+    </div>
+    <ul class="task-list" id="room-list"></ul>
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
+  <script type="text/javascript" src="newroom.js"></script>
+</html>

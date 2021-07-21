@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#controller {
+    display: flex;
+    justify-content: space-between;
+}
+
+#redscore {
+    color: red;
+    font-size: 100px;
+}
+
+#bluescore {
+    color: blue;
+    font-size: 100px;
+}
+
+#main {
+    display: flex;
+    margin-top: 100px;
+    height: 72.37vh;
+    width: 100vw;
+}
+
+.reset {
+    position: fixed;
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    height: 45px;
+    width: 80px;
+    left: calc(50% - 40px);
+    border: none;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 18px;
+}
+
+.reset:hover {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+#red {
+    background-color: red;
+    height: 100%;
+}
+
+#blue {
+    background-color: blue;
+    height: 100%;
+}
+
+#redWin {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+#blueWin {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+}
