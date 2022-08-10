@@ -1,10 +1,10 @@
 let firebaseConfig = {
-  apiKey: "AIzaSyBRVBAbF_Urk5BtJo2VrjXNkpgmt4RIrZw",
-  authDomain: "tugofwars2.firebaseapp.com",
-  projectId: "tugofwars2",
-  storageBucket: "tugofwars2.appspot.com",
-  messagingSenderId: "944394310186",
-  appId: "1:944394310186:web:e4199f9baf2c241ed72953"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
